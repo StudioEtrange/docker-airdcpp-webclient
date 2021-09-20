@@ -12,6 +12,7 @@ RUN installDeps=' \
         openssl \
         curl \
         iproute2 \
+        jq \
     ' \
 # Install dependencies
     && export DEBIAN_FRONTEND=noninteractive \
