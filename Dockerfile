@@ -11,6 +11,7 @@ RUN installDeps=' \
         locales \
         openssl \
         curl \
+        jq \
     ' \
 # Install dependencies
     && export DEBIAN_FRONTEND=noninteractive \
